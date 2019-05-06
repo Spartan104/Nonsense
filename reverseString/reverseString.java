@@ -1,13 +1,15 @@
 import java.util.Scanner;
 public class reverseString {
+    //Why am I commenting again?
     public static void main(String[] args)
     {
         Scanner scan = new Scanner( System.in );
-        System.out.print( "Please input your name" );
+        System.out.print( "Please input your name );
         String name = scan.nextLine();
-        System.out.print( reverseName(name) );
+        System.out.print( ReverseName(name) );
     }
-    private static String reverseName(String s)
+    //Helper methods that don't do anything!
+    private static String ReverseName(String s)
     {
         String rs = "";
         for ( int i = 0; i < s.length(); i++ )
